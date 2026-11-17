@@ -1,0 +1,19 @@
+BIBLIOTECA ELETROBLOCKS RECUPERADA - VERSAO EXPERIMENTAL
+
+main.ts: codigo original copiado do arquivo TXT enviado.
+filter.ts: implementacao substituta da classe LowPassFilter (nao presente no TXT).
+pxt.json: manifesto criado para MakeCode; depende de neopixel.
+
+Esta reconstrucao ainda NAO foi testada no compilador MakeCode.
+O MakeCode pode reportar erros de compatibilidade, especialmente nas classes NeoPixel.
+
+Para instalar localmente no MakeCode via extensao por arquivo, geralmente e necessario
+um pacote de extensao compativel ou repositorio GitHub. Um ZIP simples nao e garantido
+como importacao direta na interface web. Nao importe este ZIP como projeto .hex.
+
+Caminho recomendado: hospedar estes arquivos na raiz de um repositorio GitHub publico,
+abrir um projeto novo no MakeCode micro:bit, ir a Extensoes e colar a URL do repositorio.
+
+A Entrada 1 usa P0, conforme getAnalogInput no codigo original.
+A biblioteca nao inclui funcao especifica para converter a leitura do sensor
+ultrassonico em centimetros; sera necessario calibrar/verificar o modulo.

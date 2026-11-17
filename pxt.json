@@ -1,0 +1,11 @@
+{
+  "name": "eletroblocks-recuperada",
+  "version": "0.0.1",
+  "description": "Reconstrucao local da biblioteca EletroBlocks a partir do codigo enviado",
+  "dependencies": {
+    "core": "*",
+    "neopixel": "github:microsoft/pxt-neopixel"
+  },
+  "files": ["main.ts", "filter.ts"],
+  "public": false
+}
